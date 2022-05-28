@@ -6,3 +6,4 @@ ddv←{⊃⍴∊⍵}¨⌽⊃{(⊂⍺,(⍺≥⊃⍵)/⊃⍵),⍵}/⌽dv
 ⍝ while writing this line I learned how to use the local keyboard 1 menu, yes I am noob but also YAY
 inp←(^\≢⊢)⍤1⊢' '=⌽dv⌽⍤1 2⊢sav
 ∊⍤1(('('/⍨¨inp⌈-),sav,')'/⍨¨(inp>0⌈-)+0⌈⊢)2-/ddv,0
+{⊃⍴∊⍵}¨⌽⊃{(⊂⍺,(⍺≥⊃⍵)/⊃⍵),⍵}/⌽dv
