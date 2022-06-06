@@ -19,7 +19,7 @@ ddv≡(+/⊢=⌊\)⍤⌽¨,\dv
 
 ⍝ ",[.5]" is how you spell "concat along dimension that wasn't there before"
 ⍝ whoops, what is sim? undefined
-sim↑'if' '  flag' '  + 1' '    2' 'other'
+sim←↑'if' '  flag' '  + 1' '    2' 'other'
 '('⍪')',[0.5]sim
 ⍪⍉'('⍪')',[0.5]⍨⍉sim
 
