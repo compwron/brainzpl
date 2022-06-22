@@ -14,5 +14,6 @@ result←1=0
 (⍟1), ' should be 0'
 (e), ' is e'
 (⍟e), ' should be 1'
-
-
+(⌹ 0 1), 'should be 0 1'
+(⌹ 0 1 2), 'should be 0 0.2 0.4'
+(⌹ 2 2), ' should be ?'
